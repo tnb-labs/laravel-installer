@@ -3,7 +3,7 @@
 namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use RachidLaasri\LaravelInstaller\Helpers\RequirementsChecker;
+use HaoZiTeam\LaravelInstaller\Helpers\RequirementsChecker;
 
 class RequirementsController extends Controller
 {

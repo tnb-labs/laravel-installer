@@ -3,7 +3,7 @@
 namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use RachidLaasri\LaravelInstaller\Helpers\PermissionsChecker;
+use HaoZiTeam\LaravelInstaller\Helpers\PermissionsChecker;
 
 class PermissionsController extends Controller
 {

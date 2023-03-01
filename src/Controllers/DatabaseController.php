@@ -3,7 +3,7 @@
 namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use RachidLaasri\LaravelInstaller\Helpers\DatabaseManager;
+use HaoZiTeam\LaravelInstaller\Helpers\DatabaseManager;
 
 class DatabaseController extends Controller
 {

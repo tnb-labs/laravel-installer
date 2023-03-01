@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\DB;
-use RachidLaasri\LaravelInstaller\Events\EnvironmentSaved;
-use RachidLaasri\LaravelInstaller\Helpers\EnvironmentManager;
+use HaoZiTeam\LaravelInstaller\Events\EnvironmentSaved;
+use HaoZiTeam\LaravelInstaller\Helpers\EnvironmentManager;
 use Validator;
 
 class EnvironmentController extends Controller
@@ -112,7 +112,6 @@ class EnvironmentController extends Controller
     }
 
     /**
-     * TODO: We can remove this code if PR will be merged: https://github.com/RachidLaasri/LaravelInstaller/pull/162
      * Validate database connection with user credentials (Form Wizard).
      *
      * @param Request $request

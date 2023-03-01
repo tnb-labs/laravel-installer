@@ -4,8 +4,8 @@ namespace HaoZiTeam\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use RachidLaasri\LaravelInstaller\Middleware\canInstall;
-use RachidLaasri\LaravelInstaller\Middleware\canUpdate;
+use HaoZiTeam\LaravelInstaller\Middleware\canInstall;
+use HaoZiTeam\LaravelInstaller\Middleware\canUpdate;
 
 class LaravelInstallerServiceProvider extends ServiceProvider
 {

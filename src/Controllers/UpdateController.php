@@ -3,8 +3,8 @@
 namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use RachidLaasri\LaravelInstaller\Helpers\DatabaseManager;
-use RachidLaasri\LaravelInstaller\Helpers\InstalledFileManager;
+use HaoZiTeam\LaravelInstaller\Helpers\DatabaseManager;
+use HaoZiTeam\LaravelInstaller\Helpers\InstalledFileManager;
 
 class UpdateController extends Controller
 {

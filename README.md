@@ -72,8 +72,8 @@ The current features are :
 
 ## Contributing
 
-* If you have any suggestions please let me know : https://github.com/RachidLaasri/LaravelInstaller/pulls.
-* Please help us provide more languages for this awesome package please send a pull request https://github.com/RachidLaasri/LaravelInstaller/pulls.
+* If you have any suggestions please let me know : https://github.com/HaoZi-Team/Laravel-Installer/pulls.
+* Please help us provide more languages for this awesome package please send a pull request https://github.com/HaoZi-Team/Laravel-Installer/pulls.
 
 ## Help
 
