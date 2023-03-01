@@ -13,7 +13,7 @@ return [
     |
     */
     'core' => [
-        'minPhpVersion' => '7.0.0',
+        'minPhpVersion' => '8.0.0',
     ],
     'final' => [
         'key' => true,
@@ -46,6 +46,19 @@ return [
         'storage/framework/'     => '775',
         'storage/logs/'          => '775',
         'bootstrap/cache/'       => '775',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Artisan Command
+    |--------------------------------------------------------------------------
+    |
+    | Set the artisan commands that you want to run after migrations
+    |
+    |
+    */
+    'artisan_command' => [
+        'db:seed' => ['--force' => true]
     ],
 
     /*

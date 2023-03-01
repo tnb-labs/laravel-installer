@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Controllers;
+namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;

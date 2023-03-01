@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Controllers;
+namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 use RachidLaasri\LaravelInstaller\Events\LaravelInstallerFinished;

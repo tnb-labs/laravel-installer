@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Providers;
+namespace HaoZiTeam\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
@@ -58,7 +58,7 @@ class LaravelInstallerServiceProvider extends ServiceProvider
         ], 'laravelinstaller');
 
         $this->publishes([
-            __DIR__.'/../Lang' => base_path('resources/lang'),
+            __DIR__.'/../Lang' => app()->langPath(),
         ], 'laravelinstaller');
     }
 }

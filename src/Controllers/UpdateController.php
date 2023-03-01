@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Controllers;
+namespace HaoZiTeam\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 use RachidLaasri\LaravelInstaller\Helpers\DatabaseManager;
@@ -8,7 +8,7 @@ use RachidLaasri\LaravelInstaller\Helpers\InstalledFileManager;
 
 class UpdateController extends Controller
 {
-    use \RachidLaasri\LaravelInstaller\Helpers\MigrationsHelper;
+    use \HaoZiTeam\LaravelInstaller\Helpers\MigrationsHelper;
 
     /**
      * Display the updater welcome page.
