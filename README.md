@@ -1,4 +1,4 @@
-# Laravel Web Installer | A Web Installer [Package](https://packagist.org/packages/DevHaoZi/laravel-installer)
+# Laravel Web Installer | A Web Installer [Package](https://packagist.org/packages/haozi-team/laravel-installer)
 
 [![Total Downloads](https://poser.pugx.org/HaoZi-Team/Laravel-Installer/d/total.svg)](https://packagist.org/packages/DevHaoZi/laravel-installer)
 [![Latest Stable Version](https://poser.pugx.org/HaoZi-Team/Laravel-Installer/v/stable.svg)](https://packagist.org/packages/DevHaoZi/laravel-installer)
@@ -12,7 +12,7 @@
 - [Contributing](#contributing)
 - [Help](#help)
 - [Screenshots](#screenshots)
-- [License](#license)
+- [Changelog](#changelog)
 
 ## About
 
@@ -63,12 +63,12 @@ The current features are :
 
 * Additional Files and folders published to your project :
 
-|File|File Information|
-|:------------|:------------|
-|`config/installer.php`|In here you can set the requirements along with the folders permissions for your application to run, by default the array cotaines the default requirements for a basic Laravel app.|
-|`public/installer/assets`|This folder contains a css folder and inside of it you will find a `main.css` file, this file is responsible for the styling of your installer, you can overide the default styling and add your own.|
-|`resources/views/vendor/installer`|This folder contains the HTML code for your installer, it is 100% customizable, give it a look and see how nice/clean it is.|
-|`lang/en/installer_messages.php`|This file holds all the messages/text, currently only English is available, if your application is in another language, you can copy/past it in your language folder and modify it the way you want.|
+| File                                | File Information                                                                                                                                                                                                            |
+|:------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `config/installer.php`              | In here you can set the requirements along with the folders permissions for your application to run, by default the array cotaines the default requirements for a basic Laravel app.                                        |
+| `public/installer/assets`           | This folder contains a css folder and inside of it you will find a `main.css` file, this file is responsible for the styling of your installer, you can overide the default styling and add your own.                       |
+| `resources/views/vendor/installer`  | This folder contains the HTML code for your installer, it is 100% customizable, give it a look and see how nice/clean it is.                                                                                                |
+| `lang/zh-CN/installer_messages.php` | This file holds all the messages/text, currently only English and Simplified Chinese is available, if your application is in another language, you can copy/past it in your language folder and modify it the way you want. |
 
 ## Contributing
 
@@ -100,13 +100,3 @@ The current features are :
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Treeware
-
-You're free to use this package, but if it makes it to your production environment I would highly appreciate you buying the world a tree.
-
-It’s now common knowledge that one of the best tools to tackle the climate crisis and keep our temperatures from rising above 1.5C is to [plant trees](https://www.bbc.co.uk/news/science-environment-48870920). If you contribute to my forest you’ll be creating employment for local families and restoring wildlife habitats.
-
-You can buy trees at [offset.earth/treeware](https://plant.treeware.earth/rashidlaasri/LaravelInstaller)
-
-Read more about Treeware at https://treeware.earth
