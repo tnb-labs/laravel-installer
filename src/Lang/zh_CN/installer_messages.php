@@ -161,7 +161,7 @@ return [
             'title' => '经典环境编辑器',
             'save' => '保存 .env',
             'back' => '使用向导表单',
-            'install' => '保存并安装',
+            'install' => '安装',
         ],
         'success' => '您的 .env 文件设置已保存。',
         'errors' => '无法保存 .env 文件，请手动创建它。',
