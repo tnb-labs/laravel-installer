@@ -101,9 +101,7 @@ class EnvironmentManager
         if ($request->has('environment')) {
             $envFileData .= 'APP_ENV=' . $request->environment . "\n";
         }
-        if ($request->has('app_key')) {
-            $envFileData .= 'APP_KEY=' . 'base64:' . base64_encode(Str::random(32)) . "\n";
-        }
+        $envFileData .= 'APP_KEY=' . 'base64:' . base64_encode(Str::random(32)) . "\n";
         if ($request->has('app_debug')) {
             $envFileData .= 'APP_DEBUG=' . $request->app_debug . "\n";
         }
