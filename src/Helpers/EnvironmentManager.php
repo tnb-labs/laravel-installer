@@ -108,6 +108,9 @@ class EnvironmentManager
         if ($request->has('app_url')) {
             $envFileData .= 'APP_URL=' . $request->app_url . "\n\n";
         }
+        if ($request->has('admin_https')) {
+            $envFileData .= 'ADMIN_HTTPS=' . $request->admin_https . "\n\n";
+        }
 
         if ($request->has('log_channel')) {
             $envFileData .= 'LOG_CHANNEL=' . $request->log_channel . "\n";
