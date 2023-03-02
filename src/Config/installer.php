@@ -88,7 +88,7 @@ return [
                 'broadcast_driver'      => 'required|string|max:50',
                 'cache_driver'          => 'required|string|max:50',
                 'session_driver'        => 'required|string|max:50',
-                'queue_driver'          => 'required|string|max:50',
+                'queue_connection'      => 'required|string|max:50',
                 'redis_hostname'        => 'required|string|max:50',
                 'redis_password'        => 'required|string|max:50',
                 'redis_port'            => 'required|numeric',

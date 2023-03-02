@@ -92,24 +92,24 @@
                     @endif
                 </div>
 
-                <div class="form-group {{ $errors->has('app_log_level') ? ' has-error ' : '' }}">
-                    <label for="app_log_level">
-                        {{ trans('installer_messages.environment.wizard.form.app_log_level_label') }}
+                <div class="form-group {{ $errors->has('log_level') ? ' has-error ' : '' }}">
+                    <label for="log_level">
+                        {{ trans('installer_messages.environment.wizard.form.log_level_label') }}
                     </label>
-                    <select name="app_log_level" id="app_log_level">
-                        <option value="debug" selected>{{ trans('installer_messages.environment.wizard.form.app_log_level_label_debug') }}</option>
-                        <option value="info">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_info') }}</option>
-                        <option value="notice">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_notice') }}</option>
-                        <option value="warning">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_warning') }}</option>
-                        <option value="error">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_error') }}</option>
-                        <option value="critical">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_critical') }}</option>
-                        <option value="alert">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_alert') }}</option>
-                        <option value="emergency">{{ trans('installer_messages.environment.wizard.form.app_log_level_label_emergency') }}</option>
+                    <select name="log_level" id="log_level">
+                        <option value="debug" selected>{{ trans('installer_messages.environment.wizard.form.log_level_label_debug') }}</option>
+                        <option value="info">{{ trans('installer_messages.environment.wizard.form.log_level_label_info') }}</option>
+                        <option value="notice">{{ trans('installer_messages.environment.wizard.form.log_level_label_notice') }}</option>
+                        <option value="warning">{{ trans('installer_messages.environment.wizard.form.log_level_label_warning') }}</option>
+                        <option value="error">{{ trans('installer_messages.environment.wizard.form.log_level_label_error') }}</option>
+                        <option value="critical">{{ trans('installer_messages.environment.wizard.form.log_level_label_critical') }}</option>
+                        <option value="alert">{{ trans('installer_messages.environment.wizard.form.log_level_label_alert') }}</option>
+                        <option value="emergency">{{ trans('installer_messages.environment.wizard.form.log_level_label_emergency') }}</option>
                     </select>
-                    @if ($errors->has('app_log_level'))
+                    @if ($errors->has('log_level'))
                         <span class="error-block">
                             <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
-                            {{ $errors->first('app_log_level') }}
+                            {{ $errors->first('log_level') }}
                         </span>
                     @endif
                 </div>
@@ -296,8 +296,8 @@
                             @endif
                         </div>
 
-                        <div class="form-group {{ $errors->has('queue_driver') ? ' has-error ' : '' }}">
-                            <label for="queue_driver">{{ trans('installer_messages.environment.wizard.form.app_tabs.queue_label') }}
+                        <div class="form-group {{ $errors->has('queue_connection') ? ' has-error ' : '' }}">
+                            <label for="queue_connection">{{ trans('installer_messages.environment.wizard.form.app_tabs.queue_label') }}
                                 <sup>
                                     <a href="https://laravel.com/docs/5.4/queues" target="_blank" title="{{ trans('installer_messages.environment.wizard.form.app_tabs.more_info') }}">
                                         <i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>
@@ -305,11 +305,11 @@
                                     </a>
                                 </sup>
                             </label>
-                            <input type="text" name="queue_driver" id="queue_driver" value="sync" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.queue_placeholder') }}" />
-                            @if ($errors->has('queue_driver'))
+                            <input type="text" name="queue_connection" id="queue_driver" value="sync" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.queue_placeholder') }}" />
+                            @if ($errors->has('queue_connection'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
-                                    {{ $errors->first('queue_driver') }}
+                                    {{ $errors->first('queue_connection') }}
                                 </span>
                             @endif
                         </div>
