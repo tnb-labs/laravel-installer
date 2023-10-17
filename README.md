@@ -1,8 +1,8 @@
 # Laravel Web Installer | A Web Installer [Package](https://packagist.org/packages/haozi-team/laravel-installer)
 
-[![Total Downloads](https://poser.pugx.org/HaoZi-Team/Laravel-Installer/d/total.svg)](https://packagist.org/packages/haozi-team/laravel-installer)
-[![Latest Stable Version](https://poser.pugx.org/HaoZi-Team/Laravel-Installer/v/stable.svg)](https://packagist.org/packages/haozi-team/laravel-installer)
-[![License](https://poser.pugx.org/HaoZi-Team/Laravel-Installer/license.svg)](https://packagist.org/packages/haozi-team/laravel-installer)
+[![Total Downloads](https://poser.pugx.org/haozi-team/LaravelInstaller/d/total.svg)](https://packagist.org/packages/haozi-team/laravel-installer)
+[![Latest Stable Version](https://poser.pugx.org/haozi-team/LaravelInstaller/v/stable.svg)](https://packagist.org/packages/haozi-team/laravel-installer)
+[![License](https://poser.pugx.org/haozi-team/LaravelInstaller/license.svg)](https://packagist.org/packages/haozi-team/laravel-installer)
 
 - [About](#about)
 - [Requirements](#requirements)
@@ -37,7 +37,7 @@ The current features are :
 1. From your projects root folder in terminal run:
 2. 
 ```bash
-    composer require HaoZi-Team/Laravel-Installer
+    composer require haozi-team/LaravelInstaller
 ```
 
 2. Publish the packages views, config file, assets, and language files by running the following from your projects root folder:
@@ -72,8 +72,8 @@ The current features are :
 
 ## Contributing
 
-* If you have any suggestions please let me know : https://github.com/HaoZi-Team/Laravel-Installer/pulls.
-* Please help us provide more languages for this awesome package please send a pull request https://github.com/HaoZi-Team/Laravel-Installer/pulls.
+* If you have any suggestions please let me know : https://github.com/haozi-team/LaravelInstaller/pulls.
+* Please help us provide more languages for this awesome package please send a pull request https://github.com/haozi-team/LaravelInstaller/pulls.
 
 ## Help
 
