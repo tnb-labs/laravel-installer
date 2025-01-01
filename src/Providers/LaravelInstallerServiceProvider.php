@@ -1,11 +1,11 @@
 <?php
 
-namespace HaoZiTeam\LaravelInstaller\Providers;
+namespace TNB\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use HaoZiTeam\LaravelInstaller\Middleware\canInstall;
-use HaoZiTeam\LaravelInstaller\Middleware\canUpdate;
+use TNB\LaravelInstaller\Middleware\canInstall;
+use TNB\LaravelInstaller\Middleware\canUpdate;
 
 class LaravelInstallerServiceProvider extends ServiceProvider
 {

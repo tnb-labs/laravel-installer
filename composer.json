@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HaoZiTeam\\LaravelInstaller\\": "src/"
+            "TNB\\LaravelInstaller\\": "src/"
         },
         "files": [
             "src/Helpers/functions.php"
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HaoZiTeam\\LaravelInstaller\\Providers\\LaravelInstallerServiceProvider"
+                "TNB\\LaravelInstaller\\Providers\\LaravelInstallerServiceProvider"
             ]
         }
     },

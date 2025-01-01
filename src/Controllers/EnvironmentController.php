@@ -1,14 +1,14 @@
 <?php
 
-namespace HaoZiTeam\LaravelInstaller\Controllers;
+namespace TNB\LaravelInstaller\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\DB;
-use HaoZiTeam\LaravelInstaller\Events\EnvironmentSaved;
-use HaoZiTeam\LaravelInstaller\Helpers\EnvironmentManager;
+use TNB\LaravelInstaller\Events\EnvironmentSaved;
+use TNB\LaravelInstaller\Helpers\EnvironmentManager;
 use Validator;
 
 class EnvironmentController extends Controller

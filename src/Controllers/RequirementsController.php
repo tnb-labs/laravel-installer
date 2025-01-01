@@ -1,9 +1,9 @@
 <?php
 
-namespace HaoZiTeam\LaravelInstaller\Controllers;
+namespace TNB\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use HaoZiTeam\LaravelInstaller\Helpers\RequirementsChecker;
+use TNB\LaravelInstaller\Helpers\RequirementsChecker;
 
 class RequirementsController extends Controller
 {

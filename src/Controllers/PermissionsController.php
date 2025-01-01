@@ -1,9 +1,9 @@
 <?php
 
-namespace HaoZiTeam\LaravelInstaller\Controllers;
+namespace TNB\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use HaoZiTeam\LaravelInstaller\Helpers\PermissionsChecker;
+use TNB\LaravelInstaller\Helpers\PermissionsChecker;
 
 class PermissionsController extends Controller
 {
