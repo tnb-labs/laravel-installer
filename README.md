@@ -35,7 +35,7 @@ The current features are :
 ## Installation
 
 1. From your projects root folder in terminal run:
-2. 
+
 ```bash
     composer require tnb/laravel-installer
 ```
